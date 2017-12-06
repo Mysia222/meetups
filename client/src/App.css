@@ -1,0 +1,186 @@
+.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    height: 500px;
+    box-shadow: 0 0 0 528px rgba(0, 0, 0, 0.5) inset;
+    background-image: url(./img/bg-home.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+h1.text-uppercase {
+    text-align: center;
+    margin-left: 200px;
+    color: #fff;
+}
+
+a.btn.btn-primary.btn-xl {
+    position: absolute;
+    left: 54%;
+    font-size: 18px;
+    background: cadetblue;
+    padding: 10px 30px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #494949;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.your-meetups-container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.list-group {
+    margin-top: 40px;
+}
+
+.meethead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    height: 300px;
+    -webkit-box-shadow: 0 0 0 528px rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 0 0 528px rgba(0, 0, 0, 0.5) inset;
+    background-image: url(./img/my-meets-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+button.add-my-meetup {
+    height: 50px;
+    /* margin: 0 auto; */
+    /* margin-left: 40%; */
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.login-container {
+    width: 20%;
+    margin: 0 auto;
+}
+
+button {
+    background: cadetblue;
+    color: #fff;
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 180px;
+    line-height: 60px;
+    /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+  -------------------------------------------------- */
+
+
+/* Not required for template or sticky footer method. */
+
+body>.container {
+    padding: 60px 15px 0;
+}
+
+.footer>.container {
+    width: 85%;
+    padding: 0px 60px;
+    margin-left: 180px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.footer-menu li {
+    height: 30px;
+    list-style: none;
+}
+
+.social li {
+    background: none repeat scroll 0 0 #B5B5B5;
+    list-style: none;
+    border: 2px solid #B5B5B5;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 8px 0 0;
+    padding: 0;
+    text-align: center;
+    width: 36px;
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -webkit-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+}
+
+.social li:hover {
+    transform: scale(1.15) rotate(360deg);
+    -webkit-transform: scale(1.1) rotate(360deg);
+    -moz-transform: scale(1.1) rotate(360deg);
+    -ms-transform: scale(1.1) rotate(360deg);
+    -o-transform: scale(1.1) rotate(360deg);
+}
+
+.social li a {
+    color: #EDEFF1;
+}
+
+.social li:hover {
+    border: 2px solid rgb(56, 98, 99);
+    background: cadetblue;
+}
+
+.social li a i {
+    font-size: 16px;
+    margin: 0 0 0 5px;
+    color: #EDEFF1 !important;
+}
+
+h4 {
+    margin-left: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+ul.footer-menu {
+    margin-top: -20px;
+    /* margin-top: -12px; */
+}
+
+.main {
+    margin-bottom: 230px;
+}
+
+h1.form-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
